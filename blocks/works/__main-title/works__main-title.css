@@ -1,0 +1,13 @@
+.works__main-title {
+  margin: 0;
+  padding-bottom: 40px;
+  color: white;
+  font-size: 45px;
+  cursor: default;
+}
+
+@media (max-width:610px) {
+  .works__main-title {
+    font-size: 25px;
+  }
+}

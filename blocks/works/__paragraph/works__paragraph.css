@@ -1,0 +1,33 @@
+.works__paragraph {
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 163%;
+  cursor: default;
+}
+
+.works__paragraph:nth-child(2) {
+  padding-top: 27px;
+}
+
+@media (min-width:1280px) {
+  .works__paragraph:nth-child(2) {
+    padding-top: 26px;
+  }
+}
+
+@media (max-width:768px) {
+  .works__paragraph {
+    font-size: 16px;
+  }
+  .works__paragraph:nth-child(2) {
+    padding-top: 25px;
+  }
+}
+
+@media (max-width:425px) {
+  .works__paragraph {
+    padding: 0 16px;
+  }
+}

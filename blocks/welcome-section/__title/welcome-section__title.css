@@ -1,0 +1,21 @@
+@keyframes change_color {
+  0% {color: rgb(255, 255, 255);}
+  25% {color: rgb(211, 233, 240);}
+  50% {color: rgb(173, 202, 211);}
+  75% {color: rgb(149, 204, 221);}
+  100% {color: rgb(152, 226, 248);}
+}
+
+.welcome-section__title {
+  text-align: center;
+  font-size: 55px;
+  color: white;
+  cursor: default;
+  animation: change_color 5s linear alternate infinite;
+}
+
+@media (max-width:575px) {
+  .welcome-section__title {
+    font-size: 35px;
+  }
+}

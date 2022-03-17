@@ -1,0 +1,30 @@
+.section {
+  max-width: 928px;
+  margin: 0 auto;
+  padding: 42px 0;
+  color: #FFFFFF;
+}
+
+@media (min-width:1280px) {
+  .section {
+    max-width: 984px;
+  }
+}
+
+@media (max-width:990px) {
+  .section {
+    padding: 40px 36px 42px;
+}
+}
+
+@media (max-width:768px) {
+  .section {
+    padding: 38px 24px 42px;
+}
+}
+
+@media (max-width:425px) {
+  .section {
+    padding: 34px 5px;
+}
+}

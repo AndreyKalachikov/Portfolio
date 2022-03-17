@@ -1,0 +1,4 @@
+.about__span-link {
+  cursor: pointer;
+  border-bottom: 1.5px solid rgba(255, 255, 255, .5);
+}

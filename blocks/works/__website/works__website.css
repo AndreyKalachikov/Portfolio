@@ -1,0 +1,10 @@
+.works__website {
+  align-self: end;
+  grid-template-rows: 2;
+}
+
+@media (max-width:425px) {
+  .works__website {
+    padding: 0 16px;
+  }
+}

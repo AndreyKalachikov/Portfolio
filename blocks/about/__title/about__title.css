@@ -1,0 +1,21 @@
+.about__title {
+  margin: 0;
+  padding-bottom: 15px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 0.9;
+  cursor: default;
+}
+
+@media (max-width:768px) {
+  .about__title {
+  font-size: 52px;
+}
+}
+
+@media (max-width:510px) {
+  .about__title {
+  font-size: 28px;
+}
+}

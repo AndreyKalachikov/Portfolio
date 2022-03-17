@@ -1,0 +1,29 @@
+.works__title {
+  margin: 0;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 76px;
+  cursor: default;
+}
+
+@media (max-width:768px) {
+  .works__title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+@media (max-width:630px) {
+  .works__title {
+    width: fit-content;
+  }
+}
+
+@media (max-width:425px) {
+  .works__title {
+    font-size: 32px;
+    line-height: 35px;
+    padding: 0 16px;
+  }
+}

@@ -1,0 +1,35 @@
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts/fonts.css);
+
+@import url(./blocks/page/page.css);
+@import url(./blocks/page/__container/page__container.css);
+
+@import url(./blocks/mix/section.css);
+@import url(./blocks/mix/links.css);
+
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/_position/header_position_static.css);
+@import url(./blocks/header/__menu/header__menu.css);
+@import url(./blocks/header/__lang-selector/header__lang-selector.css);
+@import url(./blocks/header/__lang-selector/__type/header__lang-selector_type_active.css);
+
+@import url(./blocks/welcome-section/welcome-section.css);
+@import url(./blocks/welcome-section/__title/welcome-section__title.css);
+
+@import url(./blocks/works/__card/works__card.css);
+@import url(./blocks/works/__main-title/works__main-title.css);
+@import url(./blocks/works/__title/works__title.css);
+@import url(./blocks/works/__img-link/works__img-link.css);
+@import url(./blocks/works/__image/works__image.css);
+@import url(./blocks/works/__website/works__website.css);
+@import url(./blocks/works/__url-heading/works__url-heading.css);
+@import url(./blocks/works/__link/works__link.css);
+@import url(./blocks/works/__paragraph/works__paragraph.css);
+
+@import url(./blocks/about/__image/about__image.css);
+@import url(./blocks/about/__title/about__title.css);
+@import url(./blocks/about/__text/about__text.css);
+@import url(./blocks/about/__span-link/about__span-link.css);
+
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/footer/__copyright/footer__copyright.css);

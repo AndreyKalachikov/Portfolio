@@ -1,0 +1,10 @@
+.works__img-link {
+  grid-row: 2/3;
+  grid-column: 1;
+}
+
+@media (max-width:625px) {
+  .works__img-link {
+    grid-row: 3;
+  }
+}
